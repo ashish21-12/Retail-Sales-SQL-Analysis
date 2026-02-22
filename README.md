@@ -25,19 +25,18 @@ This project is designed to demonstrate SQL skills and techniques typically used
 ```sql
 CREATE DATABASE p1_retail_db;
 
-CREATE TABLE retail_sales
-(
-    transactions_id INT PRIMARY KEY,
-    sale_date DATE,	
-    sale_time TIME,
-    customer_id INT,	
-    gender VARCHAR(10),
-    age INT,
-    category VARCHAR(35),
-    quantity INT,
-    price_per_unit FLOAT,	
-    cogs FLOAT,
-    total_sale FLOAT
+CREATE TABLE RETAIL_SALES (
+	TRANSACTIONS_ID INT PRIMARY KEY,
+	SALE_DATE DATE,
+	SALE_TIME TIME,
+	CUSTOMER_ID INT,
+	GENDER VARCHAR(15),
+	AGE INT,
+	CATEGORY VARCHAR(15),
+	QUANTITY INT,
+	PRICE_PER_UNIT FLOAT,
+	COGS FLOAT,
+	TOTAL_SALE FLOAT
 );
 ```
 
@@ -225,3 +224,4 @@ For more content on SQL, data analysis, and other data-related topics, make sure
 - **Discord**: [Join our community to learn and grow together](https://discord.gg/36h5f2Z5PK)
 
 Thank you for your support, and I look forward to connecting with you!
+
